@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <choi.ccb.com.trapezoidprogress.progressbar.ProgressButton
+        android:id="@+id/pb1"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="15dp"
+        app:progressbtn_radius="1"
+        app:progressbtn_trapezoid_differ="15dp"
+        app:progressbtn_enable_trapezoid="true"
+        app:progressbtn_text_size="14dp"
+        app:progressbtn_background_color="#43B2BF"
+        app:progressbtn_background_second_color="#8D99AF" />
+    <Button
+        android:id="@+id/bt1"
+        android:text="梯形变化"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <choi.ccb.com.trapezoidprogress.progressbar.ProgressButton
+        android:id="@+id/pb2"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="15dp"
+        app:progressbtn_radius="1"
+        app:progressbtn_trapezoid_differ="15dp"
+        app:progressbtn_enable_trapezoid="false"
+        app:progressbtn_text_size="14dp"
+        app:progressbtn_background_color="@color/colorAccent"
+        app:progressbtn_background_second_color="#ccc" />
+    <choi.ccb.com.trapezoidprogress.progressbar.ProgressButton
+        android:id="@+id/pb3"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="15dp"
+        app:progressbtn_radius="0"
+        app:progressbtn_trapezoid_differ="15dp"
+        app:progressbtn_enable_trapezoid="false"
+        app:progressbtn_text_size="14dp"
+        app:progressbtn_background_color="#43B2BF"
+        app:progressbtn_background_second_color="#8D99AF" />
+    <choi.ccb.com.trapezoidprogress.progressbar.ProgressButton
+        android:id="@+id/pb4"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="15dp"
+        app:progressbtn_radius="1"
+        app:progressbtn_trapezoid_differ="15dp"
+        app:progressbtn_enable_trapezoid="true"
+        app:progressbtn_text_size="14dp"
+        app:progressbtn_background_color="#fb2"
+        app:progressbtn_background_second_color="#999" />
+
+</LinearLayout>
